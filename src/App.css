@@ -89,7 +89,7 @@ height: 100vh;
 }
 
 .aside{
-  background: #1c1e29 ;
+  background: #242433 ;
   padding: 1rem;
   color: #fff;
   display: flex;
@@ -161,13 +161,22 @@ height: 100vh;
     height: 48px;
   }
 
+  .btn{
+    border: none;
+    font-size: 11px;
+    padding: 10px;
+    font-weight: bold;
+    max-width: 6rem;
+  }
+
   .clintsList{
-    overflow-y: scroll;
+    display: flex;
+    left: 9rem;
     max-height: 5rem;
-    position: absolute;
-    left: 10rem;
     max-width: 12rem;
-    top: 5rem;
+    overflow-y: scroll;
     padding: 0 1rem 0 0;
+    position: absolute;
+    top: 5rem;
   }
 }
